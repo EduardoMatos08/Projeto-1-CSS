@@ -1,0 +1,139 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.aba-superior {
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    margin: 44px 0 144px 76px; 
+    line-height: 29px;
+    cursor: pointer;
+}
+
+a {
+    margin-right: 23px;
+}
+
+.log-in {
+    background: #665AE1;
+    border-radius: 21px;
+    width: 130px;
+    height: 41px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #FFFFFF;
+    line-height: 29px;
+    border: none;
+    cursor: pointer;
+}
+
+.main-image {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+article {
+    display: inline-block;
+    margin-left: 86px;
+    margin-bottom: 243px;
+}
+
+.title {
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.subtitle {
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500px;
+}
+
+.paragraph {
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    width: 515px;
+    margin: 32px 0 65px 0;
+}
+
+.explore {
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    width: 239px;
+    height: 64px;
+    border: none;
+    border-radius: 20px;
+    background: #ADFF00;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 406px) {
+    
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        height: auto;
+        width: 100%;
+    }
+
+    header {
+        display: none;
+    }
+
+    main {
+        margin-top: 150px;
+    }
+
+    .main-image {
+        height: 317px;
+        width: 354px;
+        margin: 0 35px;
+    }
+
+    article {
+        margin-left: 93px;
+        padding: 0;
+
+    }
+
+    .title {
+        margin-top: 25px;
+        height: auto;
+        width: auto;
+        font-weight: 900;
+        font-size: 50px;
+    }
+
+    .subtitle {
+        height: auto;
+        width: auto;
+        font-weight: 500;
+        font-size: 30px;
+        margin: 20px 0;
+    }
+
+    .paragraph {
+        display: none;
+    }
+
+    .explore {
+        width: 240px;
+        height: 65px;
+        font-weight: 700;
+        font-size: 28px;
+        border-radius: 50px;
+    }
+
+}
